@@ -1,0 +1,62 @@
+2026-04-25 16:56:46,176 INFO Set uid to user 0 succeeded
+2026-04-25 16:56:46,185 INFO RPC interface 'supervisor' initialized
+2026-04-25 16:56:46,185 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2026-04-25 16:56:46,185 INFO supervisord started with pid 1
+2026-04-25 16:56:47,210 INFO spawned: 'caas_package_mirror' with pid 2
+2026-04-25 16:56:47,233 INFO spawned: 'logrotate' with pid 3
+2026-04-25 16:56:47,255 INFO spawned: 'policy_merge' with pid 4
+2026-04-25 16:56:47,328 INFO spawned: 'xvfb' with pid 6
+2026-04-25 16:56:47,350 INFO spawned: 'certs' with pid 9
+2026-04-25 16:56:47,435 INFO spawned: 'extension_server' with pid 11
+2026-04-25 16:56:47,521 INFO spawned: 'openbox' with pid 12
+2026-04-25 16:56:47,621 INFO spawned: 'picom' with pid 19
+2026-04-25 16:56:47,715 INFO spawned: 'xfce4' with pid 24
+2026-04-25 16:56:47,813 INFO spawned: 'mitmproxy' with pid 31
+2026-04-25 16:56:47,910 INFO spawned: 'x11vnc' with pid 39
+2026-04-25 16:56:47,938 INFO spawned: 'apply_patch' with pid 42
+2026-04-25 16:56:48,034 INFO spawned: 'cua_bing_at_home' with pid 50
+2026-04-25 16:56:48,126 INFO spawned: 'novnc_proxy' with pid 57
+2026-04-25 16:56:48,224 INFO spawned: 'test_server' with pid 58
+2026-04-25 16:56:48,315 INFO spawned: 'chromium' with pid 59
+2026-04-25 16:56:48,337 INFO spawned: 'container_daemon' with pid 60
+2026-04-25 16:56:48,428 INFO spawned: 'libreoffice' with pid 62
+2026-04-25 16:56:48,521 INFO spawned: 'multikernel_jupyter_tool' with pid 69
+2026-04-25 16:56:48,543 INFO spawned: 'nginx' with pid 70
+2026-04-25 16:56:48,630 INFO spawned: 'notebook_server' with pid 72
+2026-04-25 16:56:48,722 INFO spawned: 'pdf_reader_service' with pid 73
+2026-04-25 16:56:48,816 INFO spawned: 'python_tool' with pid 75
+2026-04-25 16:56:48,839 INFO spawned: 'rsync_daemon' with pid 76
+2026-04-25 16:56:48,929 INFO spawned: 'sync_share' with pid 77
+2026-04-25 16:56:49,023 INFO spawned: 'terminal_server' with pid 79
+2026-04-25 16:56:49,127 INFO spawned: 'dbus' with pid 118
+2026-04-25 16:56:49,228 INFO spawned: 'neko' with pid 150
+2026-04-25 16:56:49,231 INFO exited: novnc_proxy (exit status 42; expected)
+2026-04-25 16:56:49,232 INFO exited: caas_package_mirror (exit status 42; expected)
+2026-04-25 16:56:49,233 INFO exited: mitmproxy (exit status 42; expected)
+2026-04-25 16:56:49,234 INFO exited: sync_share (exit status 42; expected)
+2026-04-25 16:56:49,235 INFO exited: xvfb (exit status 42; expected)
+2026-04-25 16:56:49,236 INFO exited: xfce4 (exit status 42; expected)
+2026-04-25 16:56:49,236 INFO exited: container_daemon (exit status 42; expected)
+2026-04-25 16:56:49,237 INFO exited: extension_server (exit status 42; expected)
+2026-04-25 16:56:49,238 INFO exited: dbus (exit status 42; expected)
+2026-04-25 16:56:49,238 INFO exited: policy_merge (exit status 42; expected)
+2026-04-25 16:56:49,239 INFO exited: libreoffice (exit status 42; expected)
+2026-04-25 16:56:49,239 INFO exited: chromium (exit status 42; expected)
+2026-04-25 16:56:49,310 INFO exited: test_server (exit status 42; expected)
+2026-04-25 16:56:49,311 INFO exited: nginx (exit status 42; expected)
+2026-04-25 16:56:49,312 INFO exited: x11vnc (exit status 42; expected)
+2026-04-25 16:56:49,312 INFO exited: picom (exit status 42; expected)
+2026-04-25 16:56:49,313 INFO exited: apply_patch (exit status 42; expected)
+2026-04-25 16:56:49,314 INFO exited: multikernel_jupyter_tool (exit status 42; expected)
+2026-04-25 16:56:49,314 INFO exited: notebook_server (exit status 42; expected)
+2026-04-25 16:56:49,315 INFO exited: pdf_reader_service (exit status 42; expected)
+2026-04-25 16:56:49,315 INFO exited: rsync_daemon (exit status 42; expected)
+2026-04-25 16:56:49,316 INFO exited: cua_bing_at_home (exit status 42; expected)
+2026-04-25 16:56:49,316 INFO exited: openbox (exit status 42; expected)
+2026-04-25 16:56:49,319 INFO success: logrotate entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2026-04-25 16:56:49,319 INFO success: certs entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2026-04-25 16:56:49,319 INFO success: python_tool entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2026-04-25 16:56:49,319 INFO success: terminal_server entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2026-04-25 16:56:49,320 INFO success: neko entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2026-04-25 16:56:49,416 INFO exited: neko (exit status 42; expected)
+2026-04-25 16:56:50,713 INFO exited: certs (exit status 42; expected)

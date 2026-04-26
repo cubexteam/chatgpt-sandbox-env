@@ -1,0 +1,7 @@
+# Forked from Neko repo: https://github.com/m1k1o/neko/blob/master/.docker/base/default.pa
+
+### Create virtual output device sink
+load-module module-null-sink sink_name=audio_output sink_properties=device.description="Virtual\ Audio\ Output"
+
+### Make sure we always have a sink around, even if it is a null sink.
+load-module module-always-sink
